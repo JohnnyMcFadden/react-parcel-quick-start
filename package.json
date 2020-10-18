@@ -1,0 +1,40 @@
+{
+  "name": "react-parcel-quick-start",
+  "version": "1.0.0",
+  "description": "Lightweight project foundation using React & Parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "rm -rf build && parcel build src/index.html --out-dir dist --no-source-maps --no-cache",
+    "serve": "npm run build && parcel serve dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyMcFadden/react-parcel-quick-start.git"
+  },
+  "keywords": [
+    "react",
+    "parcel",
+    "accessible",
+    "react-axe"
+  ],
+  "author": "The Joe Codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnyMcFadden/react-parcel-quick-start/issues"
+  },
+  "homepage": "https://github.com/JohnnyMcFadden/react-parcel-quick-start#readme",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "node": "^14.14.0",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "react-axe": "^3.5.4"
+  }
+}
